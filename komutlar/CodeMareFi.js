@@ -7,10 +7,10 @@ const Discord = require('discord.js')
 exports.conf = {
     enabled: true,
     guildOnly: false,
-    aliases: ['CodeMareFi'],
+    aliases: ['pastırma'],
     permLevel: 0
 }
 
 exports.help = {
-    name: 'codemarefi'
+    name: 'pastırma'
 }
