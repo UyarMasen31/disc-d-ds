@@ -123,7 +123,7 @@ client.on('error', e => {
 
 // OYNUYOR KISMI (ready.js açmanıza gerek yok)
 client.on('ready', () => {
-    client.user.setPresence({status: 'online', activity: { name: 'https://codemarefi.blogspot.com', type: 'WATCHING' }})    
+    client.user.setPresence({status: 'online', activity: { name: 'PASTIRMA', type: 'WATCHING' }})    
 })
 
 client.login(ayarlar.token);
